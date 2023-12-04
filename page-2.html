@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" href="styles/styles-2.css">
+        <link rel="shortcut icon" type="image/png" href="Mulah.png">
+
+        <script src="script/script-2.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="brand-name">MULAH</h1>
+        </header>
+        <main>
+            <section class="registration">
+                <p class="p1">Registration</p>
+                <p class="p2"><i>Please fill up your details.</i></p>
+                <form>
+                    <p class="form-label" style="margin-top: 10%;"><b>Name</b></p>
+                    <input type="text" id="name" placeholder="Enter Name">
+                    <div class="alert-container">
+                        <div class="alert" id="name-alert"></div>
+                    </div>
+                    <p class="form-label"><b>Birthday</b></p>
+                    <div class="date-input">
+                        <input type="text" id="day" placeholder="DD" maxlength="2">
+                        <input type="text" id="month" placeholder="MM" maxlength="2">
+                        <input type="text" id="year" placeholder="YYYY" maxlength="4">
+                    </div>
+                    <div class="alert-container">
+                        <div class="alert" id="birthday-alert"></div>
+                    </div>
+                    <p class="form-label"><b>Email</b></p>
+                    <input type="email" id="email" placeholder="Email Address">
+                    <div class="alert-container">
+                        <div class="alert" id="email-alert"></div>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="allow-empty-email" class="checkbox">
+                        <label for="allow-empty-email" class="checkbox-label">No email address.</label>
+                    </div>
+                    <div class="button">
+                        <button type="submit" class="submit">Continue</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p class="powered-by">Powered by <a href class="link">MulahRewards.com</a></p>
+        </footer>
+        </div>
+    </body>
+</html>

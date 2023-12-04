@@ -1,0 +1,110 @@
+/* Set targeted mobile resolution*/
+@media screen and (width: 640px) and (height: 1136px) {
+
+  .brand-name {
+    margin-top: 30%;
+    text-align: center;
+    color: #f68208;
+    letter-spacing: 3px;
+    font-size: 48px;
+    font-family: Arial;
+  }
+
+  .loyalty-check {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+  
+  .p1 {
+    color: #646464;
+    margin-top: 20%;
+    text-align: left;
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+  
+  .p2 {
+    color: #d27e40;
+    margin-bottom: 10%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: Arial;
+  }
+  
+  .input-group {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 80px;
+    font-family: Arial;
+  }
+  
+  input[type="tel"] {
+    border: none;
+    width: 500px;
+    padding: 5% 10%;
+    border-bottom: 2px solid #f37521;
+    font-size: 20px;
+    letter-spacing: 2px;
+    outline: none;
+    text-indent: 5%; 
+  }
+
+  .iti__flag-container {
+    font-size: 20px;
+    width: 23%;
+  }
+
+  .iti__selected-flag .iti__flag {
+    display: none;
+  }
+
+  .iti__selected-dial-code {
+    text-indent: 40%;
+  }
+
+  .iti__arrow {
+    position: absolute;
+    right: 20%;
+  }
+  
+  .submit {
+    background-color: #f68208;
+    border: none;
+    width: 100%;
+    padding: 5%;
+    margin-top: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: bold;
+  }
+
+  .footer {
+    width: 90%;
+  }
+  
+  .powered-by {
+    color: rgb(175, 175, 175);
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 95%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    font-weight: bold;
+    font-family: Arial;
+    border-top: 1px solid rgb(175, 175, 175);
+  }
+
+  .link {
+    text-decoration: none;
+    color: #566ba4;
+    font-weight: bold;
+  }
+}
